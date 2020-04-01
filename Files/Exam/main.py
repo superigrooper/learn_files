@@ -12,3 +12,9 @@ with open(file) as file_obj:
     list_data = file_obj.readlines()
 
 print(list_data)
+
+# запись в файл
+script = 'hello.py'
+
+with open(script, 'w') as file_object:
+    file_object.write('print("hello, world")')

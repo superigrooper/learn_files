@@ -1,0 +1,3 @@
+Добавить файлы в хранилище на GitHub
+git remote add origin https://github/superigrooper/learn_files.git
+git push -u origin master
