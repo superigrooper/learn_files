@@ -23,9 +23,11 @@ def greet_user():
     """Приветствует пользователя по имени."""
     username = get_stored_username()
     if username:
-        print(f"Hello, {username}")
-    else:
-        username = get_new_username()
-        print(f"{username} saved")
+        answer = input(f"Your name - {username}? y/n ")
+        if answer == 'y':
+            print(f"Hello, {username}")
+        else:
+            username = get_new_username()
+            print(f"{username} saved")
 
 greet_user()
