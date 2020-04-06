@@ -1,3 +1,14 @@
 Добавить файлы в хранилище на GitHub
 git remote add origin https://github/superigrooper/learn_files.git
 git push -u origin master
+
+DJANGO
+
+создание виртуальной среды: python3 -m venv ll_env
+активизация виртуальной среды: source ll_env/bin/activate
+деактивизация: deactivate
+
+установка django: pip install django
+
+создание проекта Django: django-admin.py startproject name_project
+создание базы данных: python manage.py migrate
